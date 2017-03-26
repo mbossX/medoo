@@ -1,0 +1,36 @@
+{
+  "name": "medoo",
+  "version": "1.0.0",
+  "description": "A simple tool for database access, work for node.",
+  "main": "medoo.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --compilers js:babel-register ./test.js"
+  },
+  "babel": {
+    "presets": [
+      "es2017"
+    ],
+    "plugins": []
+  },
+  "keywords": [
+    "node",
+    "database",
+    "mysql"
+  ],
+  "author": "MBoss",
+  "license": "ISC",
+  "dependencies": {
+    "mysql2": "^1.2.0"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-preset-es2017": "^6.22.0",
+    "babel-register": "^6.24.0",
+    "mocha": "^3.2.0",
+    "should": "^11.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chalk/ansi-regex.git"
+  }
+}
