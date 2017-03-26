@@ -1,5 +1,5 @@
 ># medoo.js     
-_medoo_ is js version of [medoo.php](http://medoo.in/).   
+_medoo_ is js version of [catfan/Medoo](https://github.com/catfan/Medoo).   
 _medoo_ write based on ES7 async/wait.   
 But now it just support mysql.
 
@@ -39,7 +39,7 @@ await medoo.setup(); // this code must call in a async function
     alter(table, action, column)
     action(actions)
 ```
-Usage of _medoo_ is simply like medoo.php, please read [medoo.php doc](http://medoo.in/doc) here is just a little dif.    
+Usage of _medoo_ is simply like medoo.php, please read [catfan/Medoo doc](http://medoo.in/doc) here is just a little dif.    
 >As in php, object is use [] to init, but in javascript it use {}.     
 >So just change [] to {} if nessesary.
 
