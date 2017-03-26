@@ -2,7 +2,7 @@
   "name": "medoo",
   "version": "1.0.0",
   "description": "A simple tool for database access, work for node.",
-  "main": "medoo.js",
+  "main": "./medoo.js",
   "scripts": {
     "test": "./node_modules/.bin/mocha --compilers js:babel-register ./test.js"
   },
