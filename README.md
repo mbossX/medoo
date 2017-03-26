@@ -4,6 +4,9 @@ _medoo_ write based on ES7 async/wait.
 But now it just support mysql.
 
 ># Usage   
+## Install   
+`npm install medoo --save`   
+## Use   
 ```javascript
 const Medoo = require('medoo');   
 const Setting = {   
