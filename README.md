@@ -6,6 +6,7 @@ But now it just support mysql.
 ># Usage   
 ## Install   
 `npm install medoo --save`   
+`npm install`    
 ## Use   
 ```javascript
 const Medoo = require('medoo');   
